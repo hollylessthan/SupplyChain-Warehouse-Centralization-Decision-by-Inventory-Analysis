@@ -73,7 +73,7 @@ print(
 
 
 #----------------
-# Total annual order and holding costs across all four locations (excluding cost of materials)
+# Total annual ordering and holding costs across all four locations (excluding cost of materials)
 #----------------
 
 print(
@@ -103,7 +103,7 @@ df_hay.loc['annual total cost'] = df_hay.loc['annual order cost'] + df_hay.loc['
 df_hay
 
 print(
-    f"""If ALKO centralizes the inventories into Hayward, the inventory would be {round(float(df_hay.loc['avg inventory','Hayward']), 2)} on average, and the total annual order and holding costs would be ${round(float(df_hay.loc['annual total cost', 'Hayward']), 2)}.""" 
+    f"""If ALKO centralizes the inventories into Hayward, the inventory would be {round(float(df_hay.loc['avg inventory','Hayward']), 2)} on average, and the total annual ordering and holding costs would be ${round(float(df_hay.loc['annual total cost', 'Hayward']), 2)}.""" 
 )
 
 #----------------
