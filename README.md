@@ -9,7 +9,7 @@ Python 3.8.5 (default, Jul 28 2020, 12:59:40)
 
 The ALKO company case and its current situation could be found in the ALKO_case.pdf file. It currently own 4 warehouses at different location in the US. The company would like to know whether moving all its inventory to a national warehouse is profitable.
 
-I started the analysis by calculate the average inventory at each of the four current warehouses and summarized the total costs for the four locations.
+I started the analysis by calculating the average inventory at each of the four current warehouses and summarized the total costs for the four locations.
 I then calculated if the company used a centralized location, what would be its required average inventory and annual total costs.
 
 
